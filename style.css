@@ -44,11 +44,11 @@ button {
     border-radius: 12px;
     background-color: turquoise;
     color:  black;
-    transform: translateY(-6px);
+    transform: translateY(-3px);
   }
 
   .pushable:active .front {
-    transform: translateY(-2px);
+    transform: translateY(-1px);
   }
 
 .penny {
