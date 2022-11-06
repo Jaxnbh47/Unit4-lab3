@@ -12,6 +12,6 @@ document.querySelector("form").addEventListener("submit", function(event){
 
 let coin = document.querySelectorAll("div");
 
-coin.addEventListener('click', "div", () => {
+coin.addEventListener('click', () => {
     coin.remove();
 })
