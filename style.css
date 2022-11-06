@@ -37,8 +37,8 @@ button {
     border: none;
     cursor: pointer;
     height: 13px;
-
   }
+  
   .front {
     display: block;
     border-radius: 12px;
@@ -54,26 +54,25 @@ button {
 .penny {
     height: 10px;
     width: 10px;
-    background: url(https://www.usmint.gov/wordpress/wp-content/uploads/2022/02/2022-lincoln-penny-uncirculated-obverse-philadelphia-768x768.jpg);
+    background-image: url(https://www.usmint.gov/wordpress/wp-content/uploads/2022/02/2022-lincoln-penny-uncirculated-obverse-philadelphia-768x768.jpg);
 }
 .nickel {
     height: 20px;
     width: 20px;
-    background: url(https://www.usmint.gov/wordpress/wp-content/uploads/2022/02/2022-jefferson-nickel-uncirculated-obverse-philadelphia-768x768.jpg);
+    background-image: url(https://www.usmint.gov/wordpress/wp-content/uploads/2022/02/2022-jefferson-nickel-uncirculated-obverse-philadelphia-768x768.jpg);
 }
 .dime {
     height: 15px;
     width: 15px;
-    background: url(https://www.usmint.gov/wordpress/wp-content/uploads/2022/01/2022-roosevelt-dime-proof-obverse-768x768.jpg);
+    background-image: url(https://www.usmint.gov/wordpress/wp-content/uploads/2022/01/2022-roosevelt-dime-proof-obverse-768x768.jpg);
 }
 .quarter {
     height: 25px;
     width: 25px;
-    background: url(https://www.usmint.gov/wordpress/wp-content/uploads/2016/06/2004-50-state-quarters-coin-michigan-uncirculated-reverse.jpg);
+    background-image: url(https://www.usmint.gov/wordpress/wp-content/uploads/2016/06/2004-50-state-quarters-coin-michigan-uncirculated-reverse.jpg);
 }
 .coinmaker {
     border-radius: 50%;
     display: flex;
-    background-repeat: repeat-x;
     background-size: cover;
 }

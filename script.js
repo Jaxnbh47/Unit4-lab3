@@ -1,4 +1,4 @@
-document.querySelector("form").addEventListener("submit", function(event){
+document.querySelector("form").addEventListener("submit",   function (event){
     event.preventDefault(); 
 
     let data = new FormData(document.querySelector("form"))
@@ -10,8 +10,8 @@ document.querySelector("form").addEventListener("submit", function(event){
 })
 
 
-let coin = document.querySelectorAll("div");
+const box = document.querySelector("div");
 
-coin.addEventListener('click', () => {
-    coin.remove();
-})
+box.addEventListener('click', function handleClick(event) {
+  box.remove();
+});
