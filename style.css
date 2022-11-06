@@ -6,6 +6,51 @@ section{
     margin-right: 5px;
 }
 
+label{
+    font-size: 10px;
+}
+
+input{
+    max-width: 100px;
+    max-height: 10px;
+    font-size: 10px;
+    background-color: limegreen;
+}
+
+select {
+    font-size: 10px;
+    max-width: 100px;
+    max-height: 20px;
+    background-color: gold;
+}
+
+button {
+    margin-top: 10px;
+    font-size: 10px;
+    width: 100px;
+}
+
+.pushable {
+    background: blueviolet;
+    border-radius: 12px;
+    padding: 0px;
+    border: none;
+    cursor: pointer;
+    height: 13px;
+
+  }
+  .front {
+    display: block;
+    border-radius: 12px;
+    background-color: turquoise;
+    color:  black;
+    transform: translateY(-6px);
+  }
+
+  .pushable:active .front {
+    transform: translateY(-2px);
+  }
+
 .penny {
     height: 10px;
     width: 10px;
