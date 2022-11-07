@@ -6,22 +6,12 @@ document.querySelector("form").addEventListener("submit",   function (event){
     let n = data.get("howmany")//by name 
     let coins = data.get("cointype") // by name
     for (let i = 0; i < n; i++)  {
-        document.querySelector("section").innerHTML += `<div class = "coinmaker ${coins}"></div>`;
+        document.querySelector("container").innerHTML += `<div class = "coinplus ${coins}"></div>`;
     }
 
 
 })
-document.querySelector("#deletecoin").addEventListener('click', function coins(event) {
+
+document.querySelector(".deletecoin").addEventListener('click', function coins(event) {
         event.target.remove();
       });
-
-
-
-
-
-
-// document.addEventListener('click', function coins(event) {
-//     console.log(event.target);
-  
-//     event.target.remove();
-//   });

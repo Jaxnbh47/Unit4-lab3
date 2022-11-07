@@ -1,35 +1,30 @@
-section{
+container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; 
     margin-left: 5px;
     margin-right: 5px;
 }
-
 label{
     font-size: 10px;
 }
-
 input{
     max-width: 100px;
     max-height: 10px;
     font-size: 10px;
     background-color: limegreen;
 }
-
 select {
     font-size: 10px;
     max-width: 100px;
     max-height: 20px;
     background-color: gold;
 }
-
 button {
     margin-top: 10px;
     font-size: 10px;
     width: 100px;
 }
-
 .pushable {
     background: blueviolet;
     border-radius: 12px;
@@ -38,7 +33,6 @@ button {
     cursor: pointer;
     height: 13px;
   }
-
   .front {
     display: block;
     border-radius: 12px;
@@ -46,11 +40,9 @@ button {
     color:  black;
     transform: translateY(-3px);
   }
-
   .pushable:active .front {
     transform: translateY(-1px);
   }
-
 .penny {
     height: 18px;
     width: 18px;
@@ -72,7 +64,7 @@ button {
     width: 25px;
     background-image: url(https://www.usmint.gov/wordpress/wp-content/uploads/2016/06/2004-50-state-quarters-coin-michigan-uncirculated-reverse.jpg);
 }
-.coinmaker {
+.coinplus {
     border-radius: 50%;
     display: flex;
     background-size: cover;
