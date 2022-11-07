@@ -8,9 +8,9 @@
 </head>
 <body class="body">
     <form>
-        <label>How Many?</label> <input type="number" id="money" name="howmany">
+        <label>How Many?</label> <input type="number" id="money" name="howmany"></input>
         <br>
-        <label for="coined">Which coin?</label>
+        <label>Which coin?</label>
         <select name="cointype" id="coiner">
             <option value="quarter">Quarter</option>
             <br>
@@ -21,10 +21,19 @@
             <option value="penny">Penny</option>
             <br>
         </select>
+        <!--*************for if I do radio buttons in class************* -->
+        <!--   <input id="quarter" name="quarter" type="radio">
+          <label for="quarter">Quarter</label><br>
+          <input id="nickel" name="nickel" type="radio">
+          <label for="nickel">Nickel</label><br>
+          <input id="dime" name="dime" type="radio">
+          <label for="dime">Dime</label><br>
+          <input value="penny" id="penny" name="penny" type="radio">
+          <label value="penny" for="penny">Penny</label> -->
         <br>
         <button class="pushable" type="submit"><span class="front">Make Money!</span></button>
     </form>
-    <container class="deletecoin">
+    <container id="deletecoin">
     </container>
     <script src="script.js"> </script>
 </body>
