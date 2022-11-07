@@ -32,17 +32,19 @@ button {
     padding: 0px;
     border: none;
     cursor: pointer;
-    height: 13px;
+    height: 12px;
+    width:90px;
   }
   .front {
     display: block;
     border-radius: 12px;
     background-color: turquoise;
     color:  black;
-    transform: translateY(-3px);
+    transform: translateY(-2px);
+    height: 12px;
   }
   .pushable:active .front {
-    transform: translateY(-1px);
+    transform: translateY(0px);
   }
 .penny {
     height: 18px;
